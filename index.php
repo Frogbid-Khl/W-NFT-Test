@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <?php
+    include("include/cdn.php");
+    ?>
+
+    <?php
+    include("include/css.php");
+    ?>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container"><a class="logo" href="index-2.html"><img src="images/logo.png" alt=""></a>
+            <nav class="nav js-nav">
+                <ul class="header-btn">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#game">Game</a></li>
+                    <li><a href="#instructions">Collection </a></li>
+                    <li><a href="#roadmap">ROADMAP</a></li>
+                </ul>
+                <a class="btn" href="#minting" type="button">MINT</a>
+                <a class="btn pl-4 ml-3" href="#minting" type="button">view on opensea</a>
+            </nav>
+            <div class="burger js-burger"><span></span><span></span><span></span></div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="intro-section">
+            <div class="container">
+                <div class="intro-links" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true"><a
+                            class="link" href="#" target="_blank">twitter</a><a
+                            class="link" href="#" target="_blank">discord</a></div>
+                <h1 class="main-title" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true"
+                    data-text="Chubb Club">Lorem Ipsum</h1><span class="subtitle" data-aos="fade-up"
+                                                                 data-aos-duration="1250" data-aos-once="true">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
+                <div class="info" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
+                    <div class="info__wrap">
+                        <p class="info__text">Minting is live. 0.05 ETH per Lorem</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mint-section" id="minting">
+            <div class="container">
+                <div class="mint">
+                    <div class="mint__wrap">
+                        <h2 class="mint__title section-title">Mint Lorem Ipsum</h2>
+                        <p class="mint__text">
+                            Total minted: <span class="total-minted">0 / 5000</span></p>
+                        <p class="mint__text">
+                            0.05 Eth + Gas fee <br>Max 20 Lorem per transaction</p>
+                        <form class="form" action="#">
+                            <div class="form__wrap">
+                                <div class="form__row">
+                                    <div class="form__field">
+                                        <button class="form__btn-add input-wrap-left" type="button">-</button>
+                                        <input class="form__input mint-input" type="number" name="#" id="#" value="1">
+                                        <button class="form__btn-add input-wrap-right" type="button">+</button>
+                                    </div>
+                                    <button class="form__btn-value input-five-button" type="button">5</button>
+                                    <button class="form__btn-value input-ten-button" type="button">10</button>
+                                    <button class="form__btn-value input-twenty-button" type="button">20</button>
+                                </div>
+                                <button class="form__btn js-popup-open" type="button">Connect wallet</button>
+                                <button class="form__btn mint-button" type="button">MINT Lorem</button>
+                            </div>
+                        </form>
+                        <div class="links-wrap"><a class="mint__link"
+                                                   href="#"
+                                                   target="_blank">View Contract </a></div>
+                        <p class="mint__descr">Please use Chrome/Firefox with metamask extension for PC or metamask app
+                            for mobile</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="avatar-section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Lorem
+                    Ipsum</h2>
+                <div class="avatar-wrap">
+                    <div class="avatar-info">
+                        <p class="sub-text" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">Lorem Ipsum
+                            has been the industry's standard dummy text ever since the 1500s</p>
+                        <ul class="info-list" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true"
+                            style="color: black">
+                            <li>Lorem Ipsum has been the industry's standard dummy</li>
+                            <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
+                            <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            </li>
+                            <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="avatar-img">
+                        <div class="card-wrap">
+                            <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                                <div class="card__wrap">
+                                    <div class="card__img-wrap">
+                                        <div class="card__img"><img src="images/o01.png" alt=""></div>
+                                    </div>
+                                    <button class="card__link btn secondary" type="button">Lorem Ipsum</button>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+                                <div class="card__wrap">
+                                    <div class="card__img-wrap">
+                                        <div class="card__img"><img src="images/o11.png" alt=""></div>
+                                    </div>
+                                    <button class="card__link btn secondary" type="button">Lorem Ipsum</button>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="fade-up" data-aos-duration="1400" data-aos-once="true">
+                                <div class="card__wrap">
+                                    <div class="card__img-wrap">
+                                        <div class="card__img"><img src="images/o21.png" alt=""></div>
+                                    </div>
+                                    <button class="card__link btn secondary" type="button">Lorem Ipsum</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="immerse-section" id="game">
+            <div class="container">
+                <div class="immerse">
+                    <div class="immerse__wrap">
+                        <div class="immerse__col">
+                            <div class="immerse__img" data-aos="zoom-in" data-aos-duration="1200" data-aos-once="true">
+                                <img src="images/shiaba-img.png" alt=""></div>
+                        </div>
+                        <div class="immerse__col">
+                            <div class="immerse__info">
+                                <h2 class="immerse__title section-title" data-aos="fade-up" data-aos-duration="1000"
+                                    data-aos-once="true">
+                                    Lorem Ipsum <br>type and scrambled <span>type and scrambled</span></h2>
+                                <p class="immerse__text sub-text" data-aos="fade-up" data-aos-duration="1100"
+                                   data-aos-once="true">he standard chunk of Lorem Ipsum used since the 1500s is
+                                    reproduced below for those interested.</p>
+                                <ul class="immerse__list info-list" data-aos="fade-up" data-aos-duration="1200"
+                                    data-aos-once="true">
+                                    <li>because it is pleasure, but because those</li>
+                                    <li>because it is pleasure, but because those</li>
+                                    <li>because it is pleasure, but because those</li>
+                                    <li>because it is pleasure, but because those</li>
+                                    <li>because it is pleasure, but because those</li>
+                                </ul>
+                                <a class="btn primary" href="#" target="_blank"
+                                   data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">Join twitter </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="story-section" id="about">
+            <div class="container">
+                <div class="map-wrap" style=" background-image: url('images/story-bg.jpg');">
+                    <div class="map-block map-block_story">
+                        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">//
+                            The story</h2>
+                        <p class="map-desc scroll scroll-wrap" data-aos="fade-up" data-aos-duration="1200"
+                           data-aos-once="true">The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+                            below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et
+                            Malorum" by Cicero are also reproduced in their exact original form, accompanied by English
+                            versions from the 1914 translation by H. Rackham.</p>
+                    </div>
+                    <div class="map-block"></div>
+                </div>
+            </div>
+        </section>
+        <section class="item-section" id="equipment">
+            <div class="container">
+                <div class="item-wrap">
+                    <div class="item">
+                        <div class="item__wrap">
+                            <div class="item__img">
+                                <div class="item-slider">
+                                    <div class="item-slider js-item-slider">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="item-img"><img src="images/1.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item-img"><img src="images/2.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item-img"><img src="images/3.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item-img"><img src="images/5.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item-img"><img src="images/6.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item-img"><img src="images/7.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item-img"><img src="images/8.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item__descr">
+                                <h2 class="item__title section-title" data-aos="fade-up" data-aos-duration="1100"
+                                    data-aos-once="true">Traits and Rarity</h2>
+                                <p class="item__text" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                    have suffered alteration in some form, by injected humour, or randomised words which
+                                    don't look even slightly believable. If you are going to use a passage of Lorem
+                                    Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of
+                                    text. </p>
+                                <p class="item__text" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                    have suffered alteration in some form, by injected humour, or randomised words which
+                                    don't look even slightly believable. </p><a class="btn primary"
+                                                                                href="https://discord.gg/HRHRU46K2V"
+                                                                                target="_blank" data-aos="fade-up"
+                                                                                data-aos-duration="1400"
+                                                                                data-aos-once="true">Join the
+                                    discord</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="instruction-section" id="instructions">
+            <h2 class="section-title">Collection</h2>
+            <p class="instruction-text base-text" style="color: #000"> There are many variations of passages of Lorem
+                Ipsum available, but the majority have suffered alteration in some form, by injected humour, or
+                randomised words which don't look even slightly believable.</p>
+            <div class="instr-wrap">
+                <div class="instr">
+                    <div class="instr__wrap">
+                        <div class="instr__row" style="background-image: url('images/ss1.png');"></div>
+                        <div class="instr__row" style="background-image: url('images/ss2.png');"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="map-section" id="roadmap">
+            <div class="container">
+                <div class="map-wrap">
+                    <div class="map-block map-block_road">
+                        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">//
+                            Roadmap</h2>
+                        <p class="map-desc scroll scroll-wrap" data-aos="fade-up" data-aos-duration="1200"
+                           data-aos-once="true"></p>
+                        <div class="map__item" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
+                            <span class="map__percent">100%</span>
+                            <p class="map-desc">Combined with a handful of model sentence structures, to generate Lorem
+                                Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                                repetition, injected humour</p>
+                        </div>
+                        <div class="map__item" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+                            <span class="map__percent">90%</span>
+                            <p class="map-desc">Combined with a handful of model sentence structures, to generate Lorem
+                                Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                                repetition, injected humour</p>
+                        </div>
+                        <div class="map__item" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
+                            <span class="map__percent">80%</span>
+                            <p class="map-desc">Combined with a handful of model sentence structures, to generate Lorem
+                                Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                                repetition, injected humour</p>
+                        </div>
+                        <div class="map__item" data-aos="fade-up" data-aos-duration="1400" data-aos-once="true">
+                            <span class="map__percent">70%</span>
+                            <p class="map-desc"> Combined with a handful of model sentence structures, to generate Lorem
+                                Ipsum which looks reasonable.</p>
+                        </div>
+                        <div class="map__item" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                            <span class="map__percent">60%</span>
+                            <p class="map-desc"> Combined with a handful of model sentence structures, to generate Lorem
+                                Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                                repetition, injected humour</p>
+                        </div>
+
+
+                    </div>
+                    <div class="map-block map-block_fits">
+                        <div class="map" style="margin-top: 105px">
+                            <div class="map__item" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
+                                <span class="map__percent">50%</span>
+                                <p class="map-desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.</p>
+                            </div>
+                            <div class="map__item" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+                                <span class="map__percent">40%</span>
+                                <p class="map-desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.</p>
+                            </div>
+                            <div class="map__item" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
+                                <span class="map__percent">30%</span>
+                                <p class="map-desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.</p>
+                            </div>
+                            <div class="map__item" data-aos="fade-up" data-aos-duration="1400" data-aos-once="true">
+                                <span class="map__percent">20%</span>
+                                <p class="map-desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.</p>
+                            </div>
+                            <div class="map__item" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                                <span class="map__percent">10%</span>
+                                <p class="map-desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq-section" id="faq">
+            <div class="container">
+                <h2 class="section-title">FAQ</h2>
+                <div class="accordion">
+                    <div class="accordion__item">
+                        <div class="accordion__title-wrap">
+                            <h3 class="accordion__title">What is Lorem Ipsum?</h3>
+                            <div class="accordion__icon"></div>
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                1500s,</p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__title-wrap">
+                            <h3 class="accordion__title">What is Lorem Ipsum?</h3>
+                            <div class="accordion__icon"></div>
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy </p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__title-wrap">
+                            <h3 class="accordion__title">What is Lorem Ipsum?</h3>
+                            <div class="accordion__icon"></div>
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__title-wrap">
+                            <h3 class="accordion__title">What is Lorem Ipsum?</h3>
+                            <div class="accordion__icon"></div>
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__title-wrap">
+                            <h3 class="accordion__title">What is Lorem Ipsum?</h3>
+                            <div class="accordion__icon"></div>
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__title-wrap">
+                            <h3 class="accordion__title">What is Lorem Ipsum?</h3>
+                            <div class="accordion__icon"></div>
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bottom-section">
+            <div class="container"><img src="images/bottom-bg.png" alt="">
+                <div class="bot-content">
+                    <div class="bot-block">
+                        <div class="bot-block-wrap"><span style="font-family: chubb">Lorem Ipsum</span></div>
+                    </div>
+                    <div class="bot-block">
+                        <div class="bot-block-wrap"><span style="font-family: chubb">Lorem Ipsum!</span></div>
+                    </div>
+                    <div class="bot-block">
+                        <div class="bot-block-wrap"><span style="font-family: chubb">Lorem Ipsum!</span></div>
+                    </div>
+                    <div class="bot-block">
+                        <div class="bot-block-wrap"><span style="font-family: chubb">Lorem Ipsum</span></div>
+                    </div>
+                    <div class="bot-block">
+                        <div class="bot-block-wrap"><span style="font-family: chubb">Lorem Ipsum</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-head"><a class="logo" href="#"><img src="images/logo.png" alt=""></a>
+                <nav class="nav"><span class="nav-title mr-3">Menu</span>
+                    <ul>
+                        <li><a href="#about" style="color: white">ABOUT</a></li>
+                        <li><a href="#game" style="color: white">Game</a></li>
+                        <li><a href="#instructions" style="color: white">Collection</a></li>
+                        <li><a href="#roadmap" style="color: white">ROADMAP</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="copyright">Copyright ©NFTHULK. All rights reserved. Developed By NFTHULK</p>
+        </div>
+    </footer>
+    <div class="mask js-mask"></div>
+    <div class="popup js-popup">
+        <div class="popup__wrap">
+            <h3 class="popup__title">Mint error</h3>
+            <button class="popup__close js-popup-close" type="button"></button>
+            <div class="popup__body">
+                <p class="insufficient-funds">Insufficient funds. Check your wallet balance.</p>
+                <p class="funds-need"></p>
+                <p class="wallet-address"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php
+include("include/js.php");
+?>
+</body>
+
+</html>
