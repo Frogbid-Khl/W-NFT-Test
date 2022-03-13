@@ -5,45 +5,19 @@
     include("include/cdn.php");
     ?>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="format-detection" content="telephone=no">
-    <link rel='stylesheet' href='css/bootstrap.min.css'>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0GK0W94TCW"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'G-0GK0W94TCW');
-    </script>
-    <title>DinoVerse</title>
-    <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="images/apple-touch-icon.png">
-    <link rel="shortcut icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="images/site.webmanifest">
-    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&amp;display=swap"
-          rel="stylesheet">
-    <link href="unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
-    <link href="unpkg.com/swiper%407.4.1/swiper-bundle.min.css" rel="stylesheet">
-    <link href="css/main2.css" rel="stylesheet" type="text/css">
-    <script src="unpkg.com/regenerator-runtime%400.13.1/runtime.js"></script>
-    <script src="peterolson.github.io/BigInteger.js/BigInteger.min.js"></script>
-    <script type="text/javascript" src="unpkg.com/web3%401.2.11/dist/web3.min.js"></script>
+    <?php
+    include("include/css.php");
+    ?>
     <style>
         body {
             margin: 0;
-            background-color: #FFFFFF;
+            background-color: #000000;
+            font-family: chubb;
+        }
+
+        @font-face {
+            font-family: chubb;
+            src: url(fonts/newFont.ttf);
         }
 
     </style>
@@ -54,10 +28,10 @@
         <div class="container"><a class="logo" href="index-2.html"><img src="images/logo.png" alt=""></a>
             <nav class="nav js-nav">
                 <ul class="header-btn">
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#game">Game</a></li>
-                    <li><a href="#instructions">Collection </a></li>
-                    <li><a href="#roadmap">ROADMAP</a></li>
+                    <li><a href="#about" style="color: #FFFFFF;">ABOUT</a></li>
+                    <li><a href="#game" style="color: #FFFFFF;">Game</a></li>
+                    <li><a href="#instructions" style="color: #FFFFFF;">Collection </a></li>
+                    <li><a href="#roadmap" style="color: #FFFFFF;">ROADMAP</a></li>
                 </ul>
                 <a class="btn" href="#minting" type="button">MINT</a>
                 <a class="btn pl-4 ml-3" href="#minting" type="button">Opensea</a>
@@ -79,7 +53,7 @@
                                                                data-aos-duration="1250" data-aos-once="true">🦖Meta Jurassic era is coming, time to get your egg🐣 and hatch for your most powerful pet!!</span>
                 <div class="info" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
                     <div class="info__wrap">
-                        <p class="info__text">Minting Date TBC </p>
+                        <p class="info__text">Minting Date TBC</p>
                     </div>
                 </div>
             </div>
@@ -275,7 +249,7 @@
         </section>
         <section class="instruction-section" id="instructions">
             <h2 class="section-title">Collection</h2>
-            <p class="instruction-text base-text" style="color: #000"> There are many variations of passages of Lorem
+            <p class="instruction-text base-text"> There are many variations of passages of Lorem
                 Ipsum available, but the majority have suffered alteration in some form, by injected humour, or
                 randomised words which don't look even slightly believable.</p>
             <div class="instr-wrap">
@@ -296,73 +270,25 @@
                         <p class="map-desc scroll scroll-wrap" data-aos="fade-up" data-aos-duration="1200"
                            data-aos-once="true"></p>
                         <div class="map__item" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
-                            <span class="map__percent">100%</span>
-                            <p class="map-desc">Combined with a handful of model sentence structures, to generate Lorem
-                                Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
-                                repetition, injected humour</p>
+                            <span class="map__percent">Phase One - Minting take place</span>
+                            <p class="map-desc">Total 5,000 of Dinos available in Meta Jurassic era. You will start with an egg and after revealed it will turn into your unique bb dinosaur.</p>
                         </div>
-                        <div class="map__item" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
-                            <span class="map__percent">90%</span>
-                            <p class="map-desc">Combined with a handful of model sentence structures, to generate Lorem
-                                Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
-                                repetition, injected humour</p>
+                        <div class="map__item" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
+                            <span class="map__percent">Phase Three - MetaVerse</span>
+                            <p class="map-desc"> The dinosaur Metaverse will be opened to all holders, we will be using the Jurassic era as a background. Also, more utility will be available at this stage.</p>
                         </div>
-                        <div class="map__item" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
-                            <span class="map__percent">80%</span>
-                            <p class="map-desc">Combined with a handful of model sentence structures, to generate Lorem
-                                Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
-                                repetition, injected humour</p>
-                        </div>
-                        <div class="map__item" data-aos="fade-up" data-aos-duration="1400" data-aos-once="true">
-                            <span class="map__percent">70%</span>
-                            <p class="map-desc"> Combined with a handful of model sentence structures, to generate Lorem
-                                Ipsum which looks reasonable.</p>
-                        </div>
-                        <div class="map__item" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-                            <span class="map__percent">60%</span>
-                            <p class="map-desc"> Combined with a handful of model sentence structures, to generate Lorem
-                                Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
-                                repetition, injected humour</p>
-                        </div>
-
-
                     </div>
                     <div class="map-block map-block_fits">
                         <div class="map" style="margin-top: 105px">
-                            <div class="map__item" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
-                                <span class="map__percent">50%</span>
-                                <p class="map-desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</p>
+                            <div class="map__item" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+                                <span class="map__percent">Phase Two - Game</span>
+                                <p class="map-desc">We don’t stop at the bb dinosaur stage, after you hatch you will then feed them will food and snacks to earn exp, you will also need to take care of the environment such as cleaning up the poo or your bb dinosaur will get sick.
+                                    We also have some mini-games(mobile compatible) that you could play with your bb dinosaur to earn exp.
+                                    <br>Once your bb dinosaur earns enough exp you can have him evolve into a Juvie dinosaur and adult dinosaur.</p>
                             </div>
                             <div class="map__item" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
-                                <span class="map__percent">40%</span>
-                                <p class="map-desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</p>
-                            </div>
-                            <div class="map__item" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
-                                <span class="map__percent">30%</span>
-                                <p class="map-desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</p>
-                            </div>
-                            <div class="map__item" data-aos="fade-up" data-aos-duration="1400" data-aos-once="true">
-                                <span class="map__percent">20%</span>
-                                <p class="map-desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</p>
-                            </div>
-                            <div class="map__item" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-                                <span class="map__percent">10%</span>
-                                <p class="map-desc"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</p>
+                                <span class="map__percent">Phase Four - Branded items and more!</span>
+                                <p class="map-desc"> We will be creating physical collectible items for our dinosaur and gifting them to its NFT holder.</p>
                             </div>
                         </div>
                     </div>

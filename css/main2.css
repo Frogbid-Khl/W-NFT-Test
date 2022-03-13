@@ -2,14 +2,14 @@
 
 
 @font-face {
-    font-family: chubb;
+    font-family: pixel;
     src: url(../fonts/newFont.otf);
 }
 
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 
@@ -84,7 +84,7 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: chubb;
+    font-family: pixel;
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
@@ -360,7 +360,7 @@ html {
 
 body {
     background-color: #ffffff;
-    font-family: "chubb", sans-serif;
+    font-family: pixel;
     height: 100vh;
     height: -webkit-calc(var(--vh, 1vh) * 100);
     height: calc(var(--vh, 1vh) * 100);
@@ -399,7 +399,7 @@ body.overflow {
 }
 
 .scroll-wrap::-webkit-scrollbar-thumb {
-    background-color: #eed91c;
+    background-color: #5142fc;
     border-radius: 2px;
     width: 3px !important;
 }
@@ -417,9 +417,9 @@ body.overflow {
 
 
 .btn {
-    color: #eed91c;
+    color: #ffcc00;
     padding: 1rem 2.8rem;
-    border: 1px solid #eed91c;
+    border: 1px solid #ffcc00;
     font-size: 1.6rem;
     font-weight: 600;
     line-height: 1;
@@ -445,15 +445,15 @@ body.overflow {
 
 .btn:hover {
     color: #0C0D08;
-    background-color: #eed91c;
+    background-color: #ffcc00;
 }
 
 .section-title {
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 1.2;
-    color: #eed91c;
-    font-family: chubb;
+    color: #ffcc00;
+    font-family: pixel;
 }
 
 @media (min-width: 768px) {
@@ -488,14 +488,12 @@ body.overflow {
     line-height: 1.39;
     margin-bottom: 5px;
     padding-left: 3rem;
-    color: #FFFFFF;
 }
 
 @media (min-width: 768px) {
     .info-list li {
         font-size: 1.8rem;
         padding-left: 4rem;
-        color: #FFFFFF;
     }
 }
 
@@ -506,7 +504,7 @@ body.overflow {
     top: 0;
     font-weight: 500;
     font-size: 1.5rem;
-    color: #eed91c;
+    color: #ffcc00;
 }
 
 @media (min-width: 768px) {
@@ -518,7 +516,7 @@ body.overflow {
 .sub-text {
     font-weight: 500;
     font-size: 18px;
-    color: #d9d55a;
+    color: #ffcc00;
 }
 
 @media (min-width: 768px) {
@@ -532,7 +530,7 @@ body.overflow {
     text-align: center;
     font-weight: 500;
     font-size: 1.8rem;
-    color: #eed91c;
+    color: #5142fc;
     margin-bottom: 2rem;
 }
 
@@ -545,21 +543,20 @@ body.overflow {
 .main-title {
     font-weight: 700;
     text-align: center;
-    font-size: 6rem;
+    font-size: 8rem;
     line-height: 1.5;
     text-transform: uppercase;
-    color: #eed91c;
+    color: #5142fc;
     position: relative;
-    font-family: 'chubb';
+    font-family: 'pixel';
 }
 
 /*@media (min-width: 768px){
     .main-title{
-      font-size:5rem; } }
+      font-size:6rem; } }
 @media (min-width: 1200px){
     .main-title{
-      font-size:2rem; } }*/
-
+      font-size:9.6rem; } }*/
 /*.main-title::before{
     content:attr(data-text);
     position:absolute;
@@ -579,7 +576,7 @@ body.overflow {
     width:100%;
     height:100%;
     left:-2px;
-    text-shadow:-2px 0 #ffffff, 2px 2px #eed91c;
+    text-shadow:-2px 0 #ffffff, 2px 2px #5142fc;
     animation:glitch-anim2 1s infinite linear alternate-reverse; }*/
 @-webkit-keyframes glitch-anim {
     0% {
@@ -1218,7 +1215,7 @@ body.overflow {
     margin-top: 5px;
     font-size: 22px;
     text-align: center;
-    color: #eed91c;
+    color: #5142fc;
     font-weight: 500;
 }
 
@@ -1252,17 +1249,17 @@ body.overflow {
     -webkit-font-smoothing: inherit;
     -moz-osx-font-smoothing: inherit;
     -webkit-appearance: none;
-    color: #eed91c;
-    border-color: #eed91c;
+    color: #5142fc;
+    border-color: #5142fc;
 }
 
 .header .btn:hover {
-    background-color: #eed91c;
+    background-color: #5142fc;
     color: #FFFFFF;
 }
 
 .header .btn:before {
-    border-color: #eed91c;
+    border-color: #5142fc;
 }
 
 .header .container {
@@ -1347,7 +1344,7 @@ body.overflow {
 }
 
 .nav a:hover {
-    color: #eed91c;
+    color: #5142fc;
 }
 
 .nav .btn {
@@ -1359,7 +1356,7 @@ body.overflow {
     display: block;
     font-weight: 600;
     font-size: 1.8rem;
-    color: #eed91c;
+    color: #5142fc;
     margin-bottom: 2rem;
     text-transform: uppercase;
 }
@@ -1580,9 +1577,9 @@ body.overflow {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     display: block;
-    font-family: chubb;
+    font-family: pixel;
     font-size: 1.2rem;
-    color: #eed91c;
+    color: #5142fc;
     -webkit-transform: rotate(-13deg);
     -ms-transform: rotate(-13deg);
     transform: rotate(-13deg);
@@ -1628,8 +1625,8 @@ body.overflow {
 .accordion__item {
     margin-bottom: 1.5rem;
     width: 100%;
-    border: 1px solid #eed91c;
-    border-left: 13px solid #eed91c;
+    border: 1px solid #ffcc00;
+    border-left: 13px solid #ffcc00;
     position: relative;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -1652,7 +1649,7 @@ body.overflow {
     position: relative;
     font-weight: 500;
     font-size: 1.6rem;
-    color: #eed91c;
+    color: #ffcc00;
     background-color: transparent;
     margin-right: 2rem;
 }
@@ -1674,7 +1671,6 @@ body.overflow {
     justify-content: space-between;
     -webkit-box-align: center;
     align-items: center;
-    background-color: #000000;
 }
 
 .accordion__icon {
@@ -1688,7 +1684,7 @@ body.overflow {
 .accordion__icon:before, .accordion__icon:after {
     position: absolute;
     content: "";
-    background-color: #eed91c;
+    background-color: #ffcc00;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
@@ -1717,7 +1713,7 @@ body.overflow {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     font-size: 1.4rem;
-    color: #eed91c;
+    color: #5142fc;
     padding: 0 2rem;
     max-width: 110rem;
     line-height: 1.5;
@@ -1757,7 +1753,6 @@ body.overflow {
 .accordion__content {
     padding-bottom: 2.5rem;
     display: none;
-    background-color: #000000;
 }
 
 .immerse-section {
@@ -1854,7 +1849,6 @@ body.overflow {
     font-weight: 500;
     font-size: 18px;
     line-height: 1.39;
-    color: #FFFFFF;
 }
 
 .instr-wrap {
@@ -1961,11 +1955,11 @@ body.overflow {
 
 .link {
     font-weight: 700;
-    font-family: chubb;
+    font-family: pixel;
     font-size: 1.6rem;
     line-height: 1;
     text-transform: uppercase;
-    color: #eed91c;
+    color: #5142fc;
     padding: 2px 1.8rem 1px;
     border-right: 1px solid rgba(0, 255, 118, 0.35);
 }
@@ -2022,7 +2016,7 @@ body.overflow {
 }
 
 .card__img-wrap {
-    background-color: #eed91c;
+    background-color: #ffcc00;
     padding: 1px;
     margin-bottom: 2rem;
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 25%, 100% 100%, 0% 100%);
@@ -2052,13 +2046,13 @@ body.overflow {
     font-size: 1.4rem;
     font-weight: 500;
     border-color: #000000;
-    background: rgba(0, 0, 0, 0.80);
+    background: rgba(0, 0, 0, 0.72);
     padding: 1.6rem 2.8rem;
     text-align: center;
 }
 
 .card__link::before {
-    border-color: #eed91c;
+    border-color: #ffcc00;
     border-width: 1.5px;
     width: 3rem;
     height: 3rem;
@@ -2178,14 +2172,13 @@ body.overflow {
     font-weight: 500;
     font-size: 1.6rem;
     line-height: 139%;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 35px;
 }
 
 @media (min-width: 768px) {
     .item__text {
         font-size: 1.8rem;
-        color: #ffffff;
     }
 }
 
@@ -2194,8 +2187,8 @@ body.overflow {
 }
 
 .info__wrap {
-    border: 1px solid #eed91c;
-    border-left: 0.7rem solid #eed91c;
+    border: 1px solid #5142fc;
+    border-left: 0.7rem solid #5142fc;
     border-radius: 1px;
     padding: 0.6rem 2rem 0.6rem 1.5rem;
     -webkit-transition: all 0.3s ease;
@@ -2203,7 +2196,7 @@ body.overflow {
     cursor: pointer;
     overflow: hidden;
     position: relative;
-    background: #eed91c17;
+    background: #5142fc17;
 }
 
 .info__wrap:after {
@@ -2235,7 +2228,7 @@ body.overflow {
     font-weight: 500;
     font-size: 1.6rem;
     line-height: 1.2;
-    color: #eed91c;
+    color: #5142fc;
 }
 
 @media (min-width: 768px) {
@@ -2273,14 +2266,14 @@ body.overflow {
 
 .mint-link-arrow {
     margin: 0 10px;
-    color: #eed91c;
+    color: #5142fc;
 }
 
 .presale__text {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 10px;
-    color: #eed91c;
+    color: #5142fc;
     font-weight: 500;
 }
 
@@ -2342,19 +2335,19 @@ body.overflow {
 
 .mint__text span {
     font-weight: 700;
-    color: #eed91c;
+    color: #ffcc00;
 }
 
 .mint__link {
     font-weight: 500;
     font-size: 16px;
-    color: #eed91c;
-    border-bottom: 1px solid #eed91c;
+    color: #ffcc00;
+    border-bottom: 1px solid #ffcc00;
     margin-bottom: 12px;
 }
 
 .mint__link:hover {
-    border-bottom: 1px solid #eed91c;
+    border-bottom: 1px solid #ffcc00;
 }
 
 .mint__descr {
@@ -2396,7 +2389,7 @@ body.overflow {
     font-size: 18px;
     text-transform: uppercase;
     color: #000000;
-    background: #eed91c;
+    background: #ffcc00;
     border-radius: 1px;
     padding: 14px 30px;
 }
@@ -2409,7 +2402,7 @@ body.overflow {
     width: 48px;
     height: 48px;
     background: #0e1f13;
-    border: 1px solid rgb(238 217 28);
+    border: 1px solid rgb(254, 4, 255);
     border-radius: 1px;
     margin: 5px;
     font-weight: 600;
@@ -2418,7 +2411,7 @@ body.overflow {
 }
 
 .form__btn-value:hover {
-    background: rgb(238 217 28);
+    background: rgb(254, 4, 255);
 }
 
 .form__field {
@@ -2433,7 +2426,7 @@ body.overflow {
     justify-content: space-between;
     background: #0e1f13;
     border-radius: 1px;
-    border: 1px solid rgb(238 217 28);
+    border: 1px solid rgb(254, 4, 255);
     margin: 5px;
 }
 
@@ -2455,7 +2448,7 @@ body.overflow {
 }
 
 .form__btn-add:hover {
-    background: rgb(238 217 28);
+    background: rgb(254, 4, 255);
 }
 
 .form__input {
@@ -2494,7 +2487,7 @@ body.overflow {
         content: '';
         width: 70px;
         height: 70px;
-        border-top: 1px solid #eed91c;
+        border-top: 1px solid #ffcc00;
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
@@ -2509,7 +2502,7 @@ body.overflow {
     width: 100%;
     padding: 2rem;
     background: rgba(10, 13, 13, 0.6);
-    border: 1px solid #eed91c;
+    border: 1px solid #ffcc00;
 }
 
 @media (min-width: 1024px) {
@@ -2533,7 +2526,7 @@ body.overflow {
     .map-block:first-child {
         width: 46%;
         border-right: none;
-        border-bottom: 1px solid #eed91c;
+        border-bottom: 1px solid #ffcc00;
     }
 }
 
@@ -2566,7 +2559,7 @@ body.overflow {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgb(29 29 34);
+    background: rgb(173 170 144);
 }
 
 .map-block > * {
@@ -2580,7 +2573,7 @@ body.overflow {
 
 .map__item {
     background: rgba(0, 0, 0, 0.3);
-    border: 1px solid #eed91c;
+    border: 1px solid #ffcc00;
     border-radius: 1px;
     margin-bottom: 2rem;
     padding: 1.5rem 1.5rem 1.5rem 3rem;
@@ -2682,7 +2675,7 @@ body.overflow {
 }
 
 .chubby{
-    font-family: chubb;
+    font-family: pixel;
 }
 
 .white{
