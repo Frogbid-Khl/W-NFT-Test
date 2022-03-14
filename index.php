@@ -120,19 +120,19 @@
         </section>-->
         <section class="avatar-section">
             <div class="container">
-                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Lorem
-                    Ipsum</h2>
+                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">DinoVerse</h2>
                 <div class="avatar-wrap">
                     <div class="avatar-info">
-                        <p class="sub-text" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">Lorem Ipsum
-                            has been the industry's standard dummy text ever since the 1500s</p>
+                        <p class="sub-text" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
+                            Your access pass to Meta Jurassic!
+                            Only 5,000 will ever be created!
+                        </p>
                         <ul class="info-list" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true"
                             style="color: black">
-                            <li>Lorem Ipsum has been the industry's standard dummy</li>
-                            <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
-                            <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                            </li>
-                            <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            <li>-Every Dinos will be born from dino eggs and it will accompany with you forever!</li>
+                            <li>-In future, you can hatch them, feed them, play with them!</li>
+                            <li>
+                                -For every Dinos holder, you can explore Meta Jurassic Park in the metaverse!
                             </li>
                         </ul>
                     </div>
@@ -176,20 +176,19 @@
                                 <img src="images/shiaba-img.png" alt=""></div>
                         </div>
                         <div class="immerse__col">
-                            <div class="immerse__info">
+                            <div class="immerse__info" style="padding:0px 50px 130px 30px;">
                                 <h2 class="immerse__title section-title" data-aos="fade-up" data-aos-duration="1000"
                                     data-aos-once="true">
-                                    Lorem Ipsum <br>type and scrambled <span>type and scrambled</span></h2>
-                                <p class="immerse__text sub-text" data-aos="fade-up" data-aos-duration="1100"
-                                   data-aos-once="true">he standard chunk of Lorem Ipsum used since the 1500s is
-                                    reproduced below for those interested.</p>
+                                    Traits and Rarity:
+                                </h2>
                                 <ul class="immerse__list info-list" data-aos="fade-up" data-aos-duration="1200"
                                     data-aos-once="true">
-                                    <li>because it is pleasure, but because those</li>
-                                    <li>because it is pleasure, but because those</li>
-                                    <li>because it is pleasure, but because those</li>
-                                    <li>because it is pleasure, but because those</li>
-                                    <li>because it is pleasure, but because those</li>
+                                    <li>
+                                        The DinoVerse has lots unique attributes with the possibility of creating over a 5,000 different combinations with different rarity.
+                                    </li>
+                                    <li>
+                                        More info will be released shortly along with more sneak peek🍭!!
+                                    </li>
                                 </ul>
                                 <a class="btn primary" href="#" target="_blank"
                                    data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">Join twitter </a>
@@ -464,7 +463,7 @@
                     </ul>
                 </nav>
             </div>
-            <p class="copyright">Copyright ©NFTHULK. All rights reserved. Developed By NFTHULK</p>
+            <p class="copyright">COPYRIGHT © DINOVERSE. ALL RIGHTS RESERVED</p>
         </div>
     </footer>
     <div class="mask js-mask"></div>

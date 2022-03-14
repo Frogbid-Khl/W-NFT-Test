@@ -50,7 +50,9 @@
                 </div>
                 <h1 class="main-title" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true"
                     data-text="Chubb Club">DinoVerse</h1><span class="subtitle" data-aos="fade-up"
-                                                               data-aos-duration="1250" data-aos-once="true">🦖Meta Jurassic era is coming, time to get your egg🐣 and hatch for your most powerful pet!!</span>
+                                                               data-aos-duration="1250" data-aos-once="true">
+                    🦖Meta Jurassic era is coming, time to get your egg<br>
+                    🐣 and hatch for your most powerful pet!!</span>
                 <div class="info" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
                     <div class="info__wrap">
                         <p class="info__text">Minting Date TBC</p>
@@ -94,79 +96,77 @@
         </section>-->
         <section class="avatar-section">
             <div class="container">
-                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Lorem
-                    Ipsum</h2>
                 <div class="avatar-wrap">
                     <div class="avatar-info">
-                        <p class="sub-text" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">Lorem Ipsum
-                            has been the industry's standard dummy text ever since the 1500s</p>
-                        <ul class="info-list" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true"
-                            style="color: black">
-                            <li>Lorem Ipsum has been the industry's standard dummy</li>
-                            <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
-                            <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                            </li>
-                            <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="avatar-img">
-                        <div class="card-wrap">
-                            <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-                                <div class="card__wrap">
-                                    <div class="card__img-wrap">
-                                        <div class="card__img"><img src="images/o01.png" alt=""></div>
-                                    </div>
-                                    <button class="card__link btn secondary" type="button">Lorem Ipsum</button>
-                                </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">DinoVerse</h2>
+                                <p class="sub-text" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
+                                    Your access pass to Meta Jurassic!</br>
+                                    Only 5,000 will ever be created!
+                                </p>
                             </div>
-                            <div class="card" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
-                                <div class="card__wrap">
-                                    <div class="card__img-wrap">
-                                        <div class="card__img"><img src="images/o11.png" alt=""></div>
-                                    </div>
-                                    <button class="card__link btn secondary" type="button">Lorem Ipsum</button>
-                                </div>
-                            </div>
-                            <div class="card" data-aos="fade-up" data-aos-duration="1400" data-aos-once="true">
-                                <div class="card__wrap">
-                                    <div class="card__img-wrap">
-                                        <div class="card__img"><img src="images/o21.png" alt=""></div>
-                                    </div>
-                                    <button class="card__link btn secondary" type="button">Lorem Ipsum</button>
-                                </div>
+                            <div class="col-md-6">
+                                <ul class="info-list" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true"
+                                    style="color: black">
+                                    <li>-Every Dinos will be born from dino eggs and it will accompany with you forever!</li>
+                                    <li>-In future, you can hatch them, feed them, play with them!</li>
+                                    <li>
+                                        -For every Dinos holder, you can explore Meta Jurassic Park in the metaverse!
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="immerse-section" id="game">
+
+        <section class="avatar-section">
             <div class="container">
-                <div class="immerse">
-                    <div class="immerse__wrap">
-                        <div class="immerse__col">
-                            <div class="immerse__img" data-aos="zoom-in" data-aos-duration="1200" data-aos-once="true">
-                                <img src="images/shiaba-img.png" alt=""></div>
-                        </div>
-                        <div class="immerse__col">
-                            <div class="immerse__info">
-                                <h2 class="immerse__title section-title" data-aos="fade-up" data-aos-duration="1000"
-                                    data-aos-once="true">
-                                    Lorem Ipsum <br>type and scrambled <span>type and scrambled</span></h2>
-                                <p class="immerse__text sub-text" data-aos="fade-up" data-aos-duration="1100"
-                                   data-aos-once="true">he standard chunk of Lorem Ipsum used since the 1500s is
-                                    reproduced below for those interested.</p>
-                                <ul class="immerse__list info-list" data-aos="fade-up" data-aos-duration="1200"
-                                    data-aos-once="true">
-                                    <li>because it is pleasure, but because those</li>
-                                    <li>because it is pleasure, but because those</li>
-                                    <li>because it is pleasure, but because those</li>
-                                    <li>because it is pleasure, but because those</li>
-                                    <li>because it is pleasure, but because those</li>
-                                </ul>
-                                <a class="btn primary" href="#" target="_blank"
-                                   data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">Join twitter </a>
+                <h2 class="section-title text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Team Members</h2>
+                <div class="avatar-img">
+                    <div class="card-wrap">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12">
+                                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                                    <div class="card__wrap">
+                                        <div class="card__img-wrap">
+                                            <div class="card__img"><img src="images/o01.png" alt=""></div>
+                                        </div>
+                                        <button class="card__link btn secondary" type="button">Charles - Mastermind</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12">
+                                <div class="card" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+                                    <div class="card__wrap">
+                                        <div class="card__img-wrap">
+                                            <div class="card__img"><img src="images/o11.png" alt=""></div>
+                                        </div>
+                                        <button class="card__link btn secondary" type="button">Ashley - Marketing Director</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12">
+                                <div class="card" data-aos="fade-up" data-aos-duration="1400" data-aos-once="true">
+                                    <div class="card__wrap">
+                                        <div class="card__img-wrap">
+                                            <div class="card__img"><img src="images/o21.png" alt=""></div>
+                                        </div>
+                                        <button class="card__link btn secondary" type="button">Jessica - Art Director</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12">
+                                <div class="card" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+                                    <div class="card__wrap">
+                                        <div class="card__img-wrap">
+                                            <div class="card__img"><img src="images/o31.png" alt=""></div>
+                                        </div>
+                                        <button class="card__link btn secondary" type="button">Franky - CTO</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -175,17 +175,21 @@
         </section>
         <section class="story-section" id="about">
             <div class="container">
-                <div class="map-wrap" style=" background-image: url('images/story-bg.jpg');">
-                    <div class="map-block map-block_story">
-                        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">//
-                            The story</h2>
-                        <p class="map-desc scroll scroll-wrap" data-aos="fade-up" data-aos-duration="1200"
-                           data-aos-once="true">We are the scientists who have been studying dinosaurs and the Jurassic
-                            era for decades. We are proud to announce that we have successfully transferred them into
-                            Web 3 and Metaverse! Prepare to get yours and hatch it! More Detail and info will be
-                            released accordingly.</p>
+                <div class="map-wrap">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">//
+                                The story</h2>
+                            <p class="map-desc scroll scroll-wrap" data-aos="fade-up" data-aos-duration="1200"
+                               data-aos-once="true">We are the scientists who have been studying dinosaurs and the Jurassic
+                                era for decades. We are proud to announce that we have successfully transferred them into
+                                Web 3 and Metaverse! Prepare to get yours and hatch it! More Detail and info will be
+                                released accordingly.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/story-bg.jpg" width="600px">
+                        </div>
                     </div>
-                    <div class="map-block"></div>
                 </div>
             </div>
         </section>
@@ -225,17 +229,10 @@
                             </div>
                             <div class="item__descr">
                                 <h2 class="item__title section-title" data-aos="fade-up" data-aos-duration="1100"
-                                    data-aos-once="true">Traits and Rarity</h2>
+                                    data-aos-once="true">Traits and Rarity:</h2>
                                 <p class="item__text" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
-                                    There are many variations of passages of Lorem Ipsum available, but the majority
-                                    have suffered alteration in some form, by injected humour, or randomised words which
-                                    don't look even slightly believable. If you are going to use a passage of Lorem
-                                    Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of
-                                    text. </p>
-                                <p class="item__text" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
-                                    There are many variations of passages of Lorem Ipsum available, but the majority
-                                    have suffered alteration in some form, by injected humour, or randomised words which
-                                    don't look even slightly believable. </p><a class="btn primary"
+                                    The DinoVerse has lots unique attributes with the possibility of creating over a 5,000 different combinations with different rarity.</p>
+                               <a class="btn primary"
                                                                                 href="https://discord.gg/HRHRU46K2V"
                                                                                 target="_blank" data-aos="fade-up"
                                                                                 data-aos-duration="1400"
@@ -249,9 +246,7 @@
         </section>
         <section class="instruction-section" id="instructions">
             <h2 class="section-title">Collection</h2>
-            <p class="instruction-text base-text"> There are many variations of passages of Lorem
-                Ipsum available, but the majority have suffered alteration in some form, by injected humour, or
-                randomised words which don't look even slightly believable.</p>
+            <p class="instruction-text base-text"> More info will be released shortly along with more sneak peek🍭!!</p>
             <div class="instr-wrap">
                 <div class="instr">
                     <div class="instr__wrap">
@@ -360,19 +355,19 @@
             <div class="container"><img src="images/bottom-bg.png" alt="">
                 <div class="bot-content">
                     <div class="bot-block">
-                        <div class="bot-block-wrap"><span style="font-family: chubb">Lorem Ipsum</span></div>
+                        <div class="bot-block-wrap"><span style="font-family: chubb">DinoVerse</span></div>
                     </div>
                     <div class="bot-block">
-                        <div class="bot-block-wrap"><span style="font-family: chubb">Lorem Ipsum!</span></div>
+                        <div class="bot-block-wrap"><span style="font-family: chubb">DinoVerse</span></div>
                     </div>
                     <div class="bot-block">
-                        <div class="bot-block-wrap"><span style="font-family: chubb">Lorem Ipsum!</span></div>
+                        <div class="bot-block-wrap"><span style="font-family: chubb">DinoVerse</span></div>
                     </div>
                     <div class="bot-block">
-                        <div class="bot-block-wrap"><span style="font-family: chubb">Lorem Ipsum</span></div>
+                        <div class="bot-block-wrap"><span style="font-family: chubb">DinoVerse</span></div>
                     </div>
                     <div class="bot-block">
-                        <div class="bot-block-wrap"><span style="font-family: chubb">Lorem Ipsum</span></div>
+                        <div class="bot-block-wrap"><span style="font-family: chubb">DinoVerse</span></div>
                     </div>
                 </div>
             </div>
@@ -390,7 +385,7 @@
                     </ul>
                 </nav>
             </div>
-            <p class="copyright">Copyright ©NFTHULK. All rights reserved. Developed By NFTHULK</p>
+            <p class="copyright">COPYRIGHT © DINOVERSE. ALL RIGHTS RESERVED</p>
         </div>
     </footer>
     <div class="mask js-mask"></div>
