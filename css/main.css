@@ -448,6 +448,7 @@ body.overflow {
     background-color: #eed91c;
 }
 
+
 .section-title {
     font-weight: 700;
     font-size: 2.5rem;
@@ -1253,7 +1254,7 @@ body.overflow {
     -moz-osx-font-smoothing: inherit;
     -webkit-appearance: none;
     color: #eed91c;
-    border-color: #eed91c;
+    border-color: #000000;
 }
 
 .header .btn:hover {
@@ -1354,6 +1355,7 @@ body.overflow {
     display: block;
     margin: 0 auto;
 }
+
 
 .nav-title {
     display: block;
@@ -2494,7 +2496,7 @@ body.overflow {
         content: '';
         width: 70px;
         height: 70px;
-        border-top: 1px solid #eed91c;
+        border-top: 1px solid #000000;
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
